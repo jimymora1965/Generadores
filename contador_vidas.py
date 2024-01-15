@@ -18,7 +18,7 @@ def perder_vida():
 perder_vida_generador = perder_vida()
 
 # Utilizar un bucle for para simular el uso del generador
-for _ in range(4):
+for mensaje in range(4):
     # Llamar a next en el generador para obtener el siguiente mensaje y almacenarlo en la variable mensaje
     mensaje = next(perder_vida_generador)
     

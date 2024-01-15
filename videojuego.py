@@ -24,6 +24,6 @@ def perder_vida():
 perder_vida_generador = perder_vida()
 
 # Simular el uso del generador
-for _ in range(4):
+for mensaje in range(4):
     mensaje = next(perder_vida_generador)
     print(mensaje)
